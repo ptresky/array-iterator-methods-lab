@@ -203,8 +203,11 @@ let firstLast = []
 
 // Complete the exercise in the space below:
 
-firstLast = inventors.map((inventor) => {
-
+firstLast = people.map((person) => {
+// access first name && last name of each person of the people array
+// console.log(person.split(', ').reverse().join(" "))
+// swap last name with first name so first name comes before last name
+    return person.split(', ').reverse().join(" ")
 })
 
 // Check your work:
